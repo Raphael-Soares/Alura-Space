@@ -1,4 +1,15 @@
 {
     "python.linting.enabled": false,
-    "python.analysis.typeCheckingMode": "basic"
+    "python.analysis.typeCheckingMode": "basic",
+
+    "emmet.includeLanguages": {
+        "django-html": "html"
+      },
+      "[django-html]": {
+    
+      },
+      "files.associations": {
+        "*.html": "django-html"
+      }
+    
 }
