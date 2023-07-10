@@ -126,6 +126,7 @@ table {
     font-size: 2rem;
     line-height: 3rem;
     margin-bottom: 1.5rem;
+
 }
 
 .cards__lista{
@@ -172,6 +173,8 @@ table {
     font-weight: bold;
     line-height: 1.2rem;
     margin-top: 0.8em;
+
+
 }
 
 .card__texto {
