@@ -4,12 +4,13 @@
 
     "emmet.includeLanguages": {
         "django-html": "html"
-      },
-      "[django-html]": {
-    
-      },
-      "files.associations": {
+    },
+    "[django-html]": {},
+    "files.associations": {
         "*.html": "django-html"
-      }
-    
+    },
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.autopep8"
+    },
+    "python.formatting.provider": "none"
 }
