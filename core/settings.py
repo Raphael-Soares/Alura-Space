@@ -20,6 +20,8 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CSRF_TRUSTED_ORIGINS = ['https://https://raphael-soares-fantastic-umbrella-rq5r5wjr5q2x6j7-8000.preview.app.github.dev/']
+
 
 # Application definition
 
