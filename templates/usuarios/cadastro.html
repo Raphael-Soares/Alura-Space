@@ -11,11 +11,7 @@
                     {{ field }}
                 </div>
 
-                {% for error in field.errors %}
-                    <div class="alert alert-danger">
-                        {{error}}
-                    </div>
-                {% endfor %}
+                {% include 'galeria/partials/_alertas.html' %}
 
                 {% endfor %}
 
