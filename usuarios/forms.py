@@ -40,7 +40,7 @@ class CadastroForms(forms.Form):
         )
     )
 
-    email_field = forms.EmailField(label='Email para cadastro', required=True, max_length=100,widget=forms.EmailInput(attrs={
+    email_cadastro = forms.EmailField(label='Email para cadastro', required=True, max_length=100,widget=forms.EmailInput(attrs={
         'class': 'form-control',
         'placeholder':'Ex.: joaosilva@xpto.com'
     }))
