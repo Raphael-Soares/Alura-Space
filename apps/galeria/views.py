@@ -51,5 +51,14 @@ def buscar(request):
     )
 
 
+def nova_imagem(request):
+    
 
+    return render(request, 'galeria/nova_imagem.html')
+
+
+def deletar_imagem(request):
+    pass
+
+    return render(request)
 
