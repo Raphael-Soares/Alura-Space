@@ -1,5 +1,5 @@
 from django.urls import path, include
-from galeria.views import index, imagem,buscar
+from apps.galeria.views import index, imagem,buscar
 
 
 

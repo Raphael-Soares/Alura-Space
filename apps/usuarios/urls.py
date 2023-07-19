@@ -1,6 +1,6 @@
 from django.urls import path, include
-from usuarios.views import login,cadastro, logout
-from galeria.views import index
+from apps.usuarios.views import login,cadastro, logout
+from apps.galeria.views import index
 
 
 
